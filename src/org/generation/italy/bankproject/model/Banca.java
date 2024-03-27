@@ -38,6 +38,10 @@ public class Banca {
         this.clienti = new Cliente[MAX_CLIENTS];
     }
 
+    public void testGit(){
+        System.out.println("Modifica file per sperimentare con Git");
+    }
+
     public double getTotalMoney(){
         double totalMoney = 0;
         for(int i = 0; i < clienti.length; i++){
