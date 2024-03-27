@@ -42,6 +42,11 @@ public class Banca {
         System.out.println("Modifica file per sperimentare con Git");
     }
 
+    public void testGit2(){
+        System.out.println("Modifica file per sperimentare con Git");
+    }
+
+
     public double getTotalMoney(){
         double totalMoney = 0;
         for(int i = 0; i < clienti.length; i++){
